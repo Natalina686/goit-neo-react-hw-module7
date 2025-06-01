@@ -1,0 +1,10 @@
+.app-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 16px;
+  font-family: 'Fira Code', monospace;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}

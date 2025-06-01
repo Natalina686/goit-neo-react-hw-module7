@@ -1,0 +1,35 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+}
+
+.text {
+  font-size: 16px;
+  color: #2e4475;
+  font-family: 'Fira Code', monospace;
+}
+
+.number {
+  font-weight: bold;
+  color: #2e4475;
+}
+
+.button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ff6b6b;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #ff3b3b;
+}
