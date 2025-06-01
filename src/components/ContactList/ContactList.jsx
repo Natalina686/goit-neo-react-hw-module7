@@ -12,7 +12,7 @@ export default function ContactList() {
     <ul className={css.list}>
       {visibleContacts.map(contact => (
         <li key={contact.id} className={css.item}>
-          <Contact contact={contact} />
+          <Contact name={contact.name} number={contact.number} id={contact.id} />
         </li>
       ))}
     </ul>
