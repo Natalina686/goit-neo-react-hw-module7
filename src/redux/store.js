@@ -3,8 +3,10 @@ import { persistStore, persistReducer, FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, 
 import storage from "redux-persist/lib/storage";
 import { combineReducers } from "redux";
 
-import contactsReducer from "./contactsSlice";
-import filtersReducer from "./filtersSlice";
+import { contactsReducer } from "./contactsSlice";
+import {filtersReducer} from './filtersSlice';
+
+
 
 const contactsPersistConfig = {
     key: "contacts",
@@ -34,3 +36,5 @@ export const store = configureStore({
 })
 
 export const persistor = persistStore(store);
+
+ 

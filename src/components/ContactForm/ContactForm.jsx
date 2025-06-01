@@ -21,7 +21,7 @@ export default function ContactForm() {
     return;
   }
 
-    dispatch(addContact(name, phone));
+    dispatch(addContact({name, phone}));
     setName('');
     setPhone('');
 };
